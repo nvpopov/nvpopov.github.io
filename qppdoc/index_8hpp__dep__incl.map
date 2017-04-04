@@ -1,0 +1,11 @@
+<map id="modules/symm/index.hpp" name="modules/symm/index.hpp">
+<area shape="rect" id="node2" href="$builders_8hpp.html" title="modules/geom/builders.hpp" alt="" coords="493,229,674,256"/>
+<area shape="rect" id="node3" href="$geom_8hpp.html" title="modules/geom/geom.hpp" alt="" coords="281,155,449,181"/>
+<area shape="rect" id="node6" href="$qppython_8cpp.html" title="modules/python/qppython.cpp" alt="" coords="485,304,681,331"/>
+<area shape="rect" id="node8" href="$cell_8hpp.html" title="modules/symm/cell.hpp" alt="" coords="523,80,683,107"/>
+<area shape="rect" id="node9" href="$gcell_8hpp.html" title="modules/symm/gcell.hpp" alt="" coords="793,155,960,181"/>
+<area shape="rect" id="node10" href="$symm_8hpp.html" title="modules/symm/symm.hpp" alt="" coords="707,80,883,107"/>
+<area shape="rect" id="node4" href="$ngbr_8hpp.html" title="modules/geom/ngbr.hpp" alt="" coords="61,229,223,256"/>
+<area shape="rect" id="node5" href="$geomio_8hpp.html" title="modules/io/geomio.hpp" alt="" coords="5,304,161,331"/>
+<area shape="rect" id="node7" href="$shape_8hpp.html" title="modules/geom/shape.hpp" alt="" coords="247,229,418,256"/>
+</map>

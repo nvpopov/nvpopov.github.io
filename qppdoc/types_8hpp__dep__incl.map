@@ -1,0 +1,19 @@
+<map id="modules/data/types.hpp" name="modules/data/types.hpp">
+<area shape="rect" id="node2" href="$types_8cpp.html" title="modules/data/types.cpp" alt="" coords="660,87,821,114"/>
+<area shape="rect" id="node3" href="$lace3d_8hpp.html" title="modules/geom/lace3d.hpp" alt="" coords="845,87,1020,114"/>
+<area shape="rect" id="node16" href="$strfun_8hpp.html" title="modules/io/strfun.hpp" alt="" coords="1045,87,1191,114"/>
+<area shape="rect" id="node18" href="$group__theory_8hpp.html" title="modules/symm/group\l_theory.hpp" alt="" coords="1215,80,1362,121"/>
+<area shape="rect" id="node4" href="$shape_8hpp.html" title="modules/geom/shape.hpp" alt="" coords="369,393,539,420"/>
+<area shape="rect" id="node5" href="$qppython_8cpp.html" title="modules/python/qppython.cpp" alt="" coords="684,468,880,495"/>
+<area shape="rect" id="node6" href="$qppython_8hpp.html" title="modules/python/qppython.hpp" alt="" coords="1193,319,1389,345"/>
+<area shape="rect" id="node7" href="$cell_8hpp.html" title="modules/symm/cell.hpp" alt="" coords="235,244,395,271"/>
+<area shape="rect" id="node12" href="$gcell_8hpp.html" title="modules/symm/gcell.hpp" alt="" coords="820,319,987,345"/>
+<area shape="rect" id="node13" href="$index_8hpp.html" title="modules/symm/index.hpp" alt="" coords="574,169,745,196"/>
+<area shape="rect" id="node15" href="$transform_8hpp.html" title="modules/symm/transform.hpp" alt="" coords="923,244,1118,271"/>
+<area shape="rect" id="node8" href="$builders_8hpp.html" title="modules/geom/builders.hpp" alt="" coords="563,393,745,420"/>
+<area shape="rect" id="node9" href="$geom_8hpp.html" title="modules/geom/geom.hpp" alt="" coords="278,319,446,345"/>
+<area shape="rect" id="node10" href="$ngbr_8hpp.html" title="modules/geom/ngbr.hpp" alt="" coords="61,393,223,420"/>
+<area shape="rect" id="node11" href="$geomio_8hpp.html" title="modules/io/geomio.hpp" alt="" coords="5,468,161,495"/>
+<area shape="rect" id="node14" href="$symm_8hpp.html" title="modules/symm/symm.hpp" alt="" coords="571,244,747,271"/>
+<area shape="rect" id="node17" href="$strfun_8cpp.html" title="modules/io/strfun.cpp" alt="" coords="1243,169,1390,196"/>
+</map>
