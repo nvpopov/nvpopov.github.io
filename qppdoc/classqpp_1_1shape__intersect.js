@@ -11,5 +11,7 @@ var classqpp_1_1shape__intersect =
     [ "scale", "classqpp_1_1shape__intersect.html#a62e905adade5935e02ff953636e37a2e", null ],
     [ "volume", "classqpp_1_1shape__intersect.html#a7ab4f0cc7f2adc262b5780717afa3f94", null ],
     [ "within", "classqpp_1_1shape__intersect.html#aee25b4290cdd3594dfd2cbc170005f9c", null ],
-    [ "write", "classqpp_1_1shape__intersect.html#a7466232e046159aefb80c70e353c6d2d", null ]
+    [ "write", "classqpp_1_1shape__intersect.html#a7466232e046159aefb80c70e353c6d2d", null ],
+    [ "sh1", "classqpp_1_1shape__intersect.html#a1fbb459a2ada12f781638a684245beed", null ],
+    [ "sh2", "classqpp_1_1shape__intersect.html#a1d74012ac73798217ede223ac43f4268", null ]
 ];

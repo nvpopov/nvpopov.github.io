@@ -42,5 +42,8 @@ var classqpp_1_1matrix3d =
     [ "zy", "classqpp_1_1matrix3d.html#a2fa46f6def81d9bb2db149ac47ba95f5", null ],
     [ "zy", "classqpp_1_1matrix3d.html#afd70dd13d7064a99d8249259352ae8e1", null ],
     [ "zz", "classqpp_1_1matrix3d.html#a59c3e35cad7bd14ed354170f2d431296", null ],
-    [ "zz", "classqpp_1_1matrix3d.html#a1f5e2f0ea110449f4194d3c5fbf6628b", null ]
+    [ "zz", "classqpp_1_1matrix3d.html#a1f5e2f0ea110449f4194d3c5fbf6628b", null ],
+    [ "a", "classqpp_1_1matrix3d.html#a87bf84841506bf2384e60a9590914030", null ],
+    [ "tol_equiv", "classqpp_1_1matrix3d.html#af3a8cac0292ac665d35f37bea47816db", null ],
+    [ "unity", "classqpp_1_1matrix3d.html#ad7accffe94dbcaa6fd6f6787aed14a3d", null ]
 ];

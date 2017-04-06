@@ -1,5 +1,7 @@
 var hierarchy =
 [
+    [ "qpp::bonding_table< REAL >::_covrad_record", "structqpp_1_1bonding__table_1_1__covrad__record.html", null ],
+    [ "qpp::bonding_table< REAL >::_ngbr_record", "structqpp_1_1bonding__table_1_1__ngbr__record.html", null ],
     [ "qpp::atom< REAL >", "classqpp_1_1atom.html", null ],
     [ "qpp::attributes< T >", "structqpp_1_1attributes.html", null ],
     [ "qpp::attributes< bool >", "structqpp_1_1attributes_3_01bool_01_4.html", null ],
@@ -19,6 +21,7 @@ var hierarchy =
     [ "qpp::geometry_observer< REAL >", "structqpp_1_1geometry__observer.html", [
       [ "qpp::neighbours_table< REAL, CELL >", "classqpp_1_1neighbours__table.html", null ]
     ] ],
+    [ "qpp::geometry_observer< DIM >", "structqpp_1_1geometry__observer.html", null ],
     [ "qpp::group_analyzer< TRANSFORM, ARRAY >", "classqpp_1_1group__analyzer.html", null ],
     [ "qpp::group_characters< VALTYPE, TRANSFORM, ARRAY >", "classqpp_1_1group__characters.html", null ],
     [ "qpp::index", "classqpp_1_1index.html", [
@@ -29,6 +32,7 @@ var hierarchy =
     [ "qpp::matrix3d< REAL >", "classqpp_1_1matrix3d.html", null ],
     [ "qpp::molecule< DIM, REAL, CELL >", "classqpp_1_1molecule.html", null ],
     [ "qpp::numeric_type< VALTYPE >", "structqpp_1_1numeric__type.html", null ],
+    [ "qpp::numeric_type< DIM >", "structqpp_1_1numeric__type.html", null ],
     [ "qpp::numeric_type< double >", "structqpp_1_1numeric__type_3_01double_01_4.html", null ],
     [ "qpp::numeric_type< float >", "structqpp_1_1numeric__type_3_01float_01_4.html", null ],
     [ "qpp::numeric_type< int >", "structqpp_1_1numeric__type_3_01int_01_4.html", null ],
@@ -54,6 +58,9 @@ var hierarchy =
       [ "qpp::shape_xor< VALTYPE >", "classqpp_1_1shape__xor.html", null ]
     ] ],
     [ "qpp::simple_vector< VALTYPE, DIM >", "classqpp_1_1simple__vector.html", null ],
+    [ "qpp::simple_vector< DIM, 3 >", "classqpp_1_1simple__vector.html", [
+      [ "qpp::vector3d< DIM >", "classqpp_1_1vector3d.html", null ]
+    ] ],
     [ "qpp::simple_vector< REAL, 3 >", "classqpp_1_1simple__vector.html", [
       [ "qpp::vector3d< REAL >", "classqpp_1_1vector3d.html", null ]
     ] ],

@@ -12,5 +12,7 @@ var classqpp_1_1shape__sphere =
     [ "scale", "classqpp_1_1shape__sphere.html#aa733caa9d98f638ff7e1534098e9df68", null ],
     [ "volume", "classqpp_1_1shape__sphere.html#a97811b7592c46c2996715b528cb37e6d", null ],
     [ "within", "classqpp_1_1shape__sphere.html#a782f63fade434fe41f79a7ef5c35b7ba", null ],
-    [ "write", "classqpp_1_1shape__sphere.html#aea5373095493a0ff6e401281a6a32464", null ]
+    [ "write", "classqpp_1_1shape__sphere.html#aea5373095493a0ff6e401281a6a32464", null ],
+    [ "R", "classqpp_1_1shape__sphere.html#aaa7b27bd9ba7b37f0961f82dc95f0078", null ],
+    [ "r0", "classqpp_1_1shape__sphere.html#ab99b10afa2e6fcf7f9e8d8b039f9fc32", null ]
 ];

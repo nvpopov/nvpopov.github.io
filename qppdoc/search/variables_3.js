@@ -5,5 +5,8 @@ var searchData=
   ['chi',['chi',['../classqpp_1_1group__characters.html#ac7f369bd2aea8b6c13f5561232f4a507',1,'qpp::group_characters']]],
   ['chi_5ftol',['chi_tol',['../classqpp_1_1group__characters.html#aa1993138c64efa36ff20961083e739ad',1,'qpp::group_characters']]],
   ['classic',['classic',['../classqpp_1_1atom.html#a04c57b9447182b56cb07510d7eb77690',1,'qpp::atom']]],
-  ['cov_5frad',['cov_rad',['../structqpp_1_1atom_1_1visible__block.html#a104f4cab8ce7a5c970e0b034e6fd769a',1,'qpp::atom::visible_block']]]
+  ['classof',['classof',['../classqpp_1_1group__analyzer.html#a01a77517513fbe10536b566f0b4c16bb',1,'qpp::group_analyzer']]],
+  ['cltab',['cltab',['../classqpp_1_1group__analyzer.html#adc64d5d364b254b502bb21efc25b2673',1,'qpp::group_analyzer']]],
+  ['cov_5frad',['cov_rad',['../structqpp_1_1atom_1_1visible__block.html#a104f4cab8ce7a5c970e0b034e6fd769a',1,'qpp::atom::visible_block']]],
+  ['crn',['crn',['../classqpp_1_1shape__box.html#ac5a455f224d9eb579d4f4b9b9a837fa6',1,'qpp::shape_box']]]
 ];

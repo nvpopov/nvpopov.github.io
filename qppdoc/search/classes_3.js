@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['factory',['factory',['../structqpp_1_1index_1_1factory.html',1,'qpp::index']]]
+  ['classical_5fblock',['classical_block',['../structqpp_1_1atom_1_1classical__block.html',1,'qpp::atom']]]
 ];

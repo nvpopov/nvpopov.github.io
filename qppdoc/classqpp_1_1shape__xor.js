@@ -11,5 +11,7 @@ var classqpp_1_1shape__xor =
     [ "scale", "classqpp_1_1shape__xor.html#a99d27cda3bf7975f62c343c609b7a98a", null ],
     [ "volume", "classqpp_1_1shape__xor.html#a233f2d6a16c1828486c9e40c6f50041b", null ],
     [ "within", "classqpp_1_1shape__xor.html#aecd0c9dc55da59d6b16150a25122baa8", null ],
-    [ "write", "classqpp_1_1shape__xor.html#a439a14ea64748fc851d4b449cda06dcf", null ]
+    [ "write", "classqpp_1_1shape__xor.html#a439a14ea64748fc851d4b449cda06dcf", null ],
+    [ "sh1", "classqpp_1_1shape__xor.html#ab490f1e11e7c918f4c7b514c7d6f693d", null ],
+    [ "sh2", "classqpp_1_1shape__xor.html#a3f60b6dca255513b60e4acdf9f3ea2bc", null ]
 ];

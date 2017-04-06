@@ -1,12 +1,15 @@
 var searchData=
 [
-  ['a',['a',['../classqpp_1_1iterator.html#a4bd3865a8f35d4a2cf4c5b5e9be1edf2',1,'qpp::iterator']]],
+  ['a',['A',['../classqpp_1_1group__characters.html#adf4304ac5cbe4e87ba94927282cc8c7c',1,'qpp::group_characters::A()'],['../classqpp_1_1matrix3d.html#a87bf84841506bf2384e60a9590914030',1,'qpp::matrix3d::a()'],['../classqpp_1_1matrix2d.html#a5e34077d147b8b039845b8b71bfa9ac6',1,'qpp::matrix2d::a()'],['../classqpp_1_1shape__box.html#ac203d106a76387a037f67d3bfd5b3824',1,'qpp::shape_box::a()'],['../classqpp_1_1iterator.html#a4bd3865a8f35d4a2cf4c5b5e9be1edf2',1,'qpp::iterator::a()']]],
   ['add',['add',['../classqpp_1_1geometry.html#a5c826f1990726ddffa66c6d5c696c119',1,'qpp::geometry::add(const STRING &amp;a, const vector3d&lt; REAL &gt; &amp;r1)'],['../classqpp_1_1geometry.html#a68369df19a02397b0a3f2c8464d101ef',1,'qpp::geometry::add(STRING a, const REAL _x, const REAL _y, const REAL _z)']]],
   ['add_5fobserver',['add_observer',['../classqpp_1_1geometry.html#ab9ff696dfdb7c26912751704db9e3133',1,'qpp::geometry']]],
   ['added',['added',['../structqpp_1_1geometry__observer.html#a532d0ddc158f973f4900fb53e13c5d12',1,'qpp::geometry_observer::added()'],['../classqpp_1_1neighbours__table.html#a7736a4cf055c90cf35b3bb0bb126bc3c',1,'qpp::neighbours_table::added()']]],
   ['after',['after',['../namespaceqpp.html#af5ca60c2ccd5d85390c48320e5d24265a8924ae5a0713c28804ccc18d328282a2',1,'qpp']]],
   ['all',['all',['../structqpp_1_1index_1_1factory.html#a974ef8de2d79f0a8e0df878b1b70d657',1,'qpp::index::factory']]],
   ['alpha',['alpha',['../structqpp_1_1atom_1_1visible__block.html#a5d93bab0a225387d6f2ecd3141f46cc6',1,'qpp::atom::visible_block']]],
+  ['at',['at',['../structqpp_1_1bonding__table_1_1__covrad__record.html#ae3cb243f560cde005ab8e31078c3cbda',1,'qpp::bonding_table::_covrad_record']]],
+  ['at1',['at1',['../structqpp_1_1bonding__table_1_1__ngbr__record.html#aa49bbca9f9a775a24700b0a54aaf466d',1,'qpp::bonding_table::_ngbr_record']]],
+  ['at2',['at2',['../structqpp_1_1bonding__table_1_1__ngbr__record.html#a9dc9e2115edf3149477ced3467fc54f7',1,'qpp::bonding_table::_ngbr_record']]],
   ['atom',['atom',['../classqpp_1_1atom.html',1,'qpp']]],
   ['atom',['atom',['../classqpp_1_1atom.html#a68e8e8c797ace44708a255b6b07cd1a3',1,'qpp::atom::atom()'],['../classqpp_1_1geometry.html#a1e5499851c499f6f6b30615ee4e56f83',1,'qpp::geometry::atom(int at)'],['../classqpp_1_1geometry.html#a61b516254cd7b1f629405b50e429607b',1,'qpp::geometry::atom(int at) const '],['../structqpp_1_1index_1_1factory.html#a927074512463935b975d0c53dc9ee2b6',1,'qpp::index::factory::atom()']]],
   ['atom_2ehpp',['atom.hpp',['../atom_8hpp.html',1,'']]],
@@ -22,5 +25,6 @@ var searchData=
   ['auto_5forder',['auto_order',['../classqpp_1_1generators__pack.html#ab83965019430318414ee7ba3d0bccb24',1,'qpp::generators_pack']]],
   ['auto_5forders',['auto_orders',['../classqpp_1_1generators__pack.html#aa465394b7e358fea3fe357574d57083f',1,'qpp::generators_pack']]],
   ['auto_5fsymmetrize',['auto_symmetrize',['../classqpp_1_1geometry.html#ac4f8a21398e1d2fbcb046fc3f047d3cf',1,'qpp::geometry']]],
+  ['auto_5fupdate',['auto_update',['../classqpp_1_1neighbours__table.html#a9256a6356582c253140d10e1243fd136',1,'qpp::neighbours_table']]],
   ['auto_5fupdate_5ftypes',['auto_update_types',['../classqpp_1_1geometry.html#a7f8c7a5b271ce1991aca7ac3fa507e87',1,'qpp::geometry']]]
 ];

@@ -11,5 +11,6 @@ var classqpp_1_1shape__invert =
     [ "scale", "classqpp_1_1shape__invert.html#a106921ae9e184384d9b9fc42f24c9ea5", null ],
     [ "volume", "classqpp_1_1shape__invert.html#a8886acb5135ec16bc276271738e99a27", null ],
     [ "within", "classqpp_1_1shape__invert.html#a7b16a576a5dbd62dc025841e61165a10", null ],
-    [ "write", "classqpp_1_1shape__invert.html#a6e2dda86769af64e3b9690797d9e6035", null ]
+    [ "write", "classqpp_1_1shape__invert.html#a6e2dda86769af64e3b9690797d9e6035", null ],
+    [ "sh", "classqpp_1_1shape__invert.html#a73bc060007f191854f4c2aa197bf8378", null ]
 ];

@@ -11,5 +11,7 @@ var classqpp_1_1shape__subtract =
     [ "scale", "classqpp_1_1shape__subtract.html#aadb6c2222afd28ba8b22a26cfde1f7f2", null ],
     [ "volume", "classqpp_1_1shape__subtract.html#af5f53d8ea493eb882c92946ef8ddc1b8", null ],
     [ "within", "classqpp_1_1shape__subtract.html#a90c07c476a28cc9e7fe06e6b996b04bf", null ],
-    [ "write", "classqpp_1_1shape__subtract.html#a46d585b24a12406eccc2568b29500df7", null ]
+    [ "write", "classqpp_1_1shape__subtract.html#a46d585b24a12406eccc2568b29500df7", null ],
+    [ "sh1", "classqpp_1_1shape__subtract.html#ac22e5286ae0bb89aaf84f879b970391d", null ],
+    [ "sh2", "classqpp_1_1shape__subtract.html#a198b9a41d978611e77dea197118d1540", null ]
 ];

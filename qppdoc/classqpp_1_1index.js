@@ -6,6 +6,7 @@ var classqpp_1_1index =
     [ "index", "classqpp_1_1index.html#a9d6dc67c810a6cc0392a43ad45546378", null ],
     [ "index", "classqpp_1_1index.html#a419d60773f992d7009ebbb4559af2b55", null ],
     [ "~index", "classqpp_1_1index.html#ae63d205bd253061e4737e806a063d5f1", null ],
+    [ "D", "classqpp_1_1index.html#ada3c1f705c40a69e943ad2da3091ed12", null ],
     [ "operator int", "classqpp_1_1index.html#a75f3c76914e976def62f9bc7d2712e69", null ],
     [ "operator!=", "classqpp_1_1index.html#a2feee39f82681b3316e733c6e7ee8106", null ],
     [ "operator()", "classqpp_1_1index.html#a07571bbc37dfc3c8e201576a0f77086d", null ],
@@ -20,5 +21,7 @@ var classqpp_1_1index =
     [ "set", "classqpp_1_1index.html#ae553e61a4c3da8e503767e977fb18487", null ],
     [ "set", "classqpp_1_1index.html#a674f39b1162dee2640dc3b2146ae5b1f", null ],
     [ "sub", "classqpp_1_1index.html#a90337fd52eaa542404bc1121d1b6cea8", null ],
-    [ "DIM", "classqpp_1_1index.html#a820cc81591a2d41850e4f83dca56d39d", null ]
+    [ "del", "classqpp_1_1index.html#ac6fcdb9a056786f3561de9cae76d2b09", null ],
+    [ "DIM", "classqpp_1_1index.html#a820cc81591a2d41850e4f83dca56d39d", null ],
+    [ "idx", "classqpp_1_1index.html#af94e17f9d9be77e5fc1e8a05c4a055d9", null ]
 ];

@@ -14,5 +14,6 @@ var classqpp_1_1vector3d =
     [ "y", "classqpp_1_1vector3d.html#a4b915a099fa5f13260448a8f61759132", null ],
     [ "y", "classqpp_1_1vector3d.html#ab36dff57d6d782fdf204f81ae3d6f07a", null ],
     [ "z", "classqpp_1_1vector3d.html#ae861f1430a3fe8ca84e94e9b137b9671", null ],
-    [ "z", "classqpp_1_1vector3d.html#a2003aa29c1dd5b1f1cb7a4a7f669e45b", null ]
+    [ "z", "classqpp_1_1vector3d.html#a2003aa29c1dd5b1f1cb7a4a7f669e45b", null ],
+    [ "tol_equiv", "classqpp_1_1vector3d.html#a61101aec1e5b60e31cdc466059f4765c", null ]
 ];

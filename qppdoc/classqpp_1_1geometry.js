@@ -19,6 +19,7 @@ var classqpp_1_1geometry =
     [ "coord", "classqpp_1_1geometry.html#a251c7db1cc9e0ec48cf46a37996dabcb", null ],
     [ "coord", "classqpp_1_1geometry.html#af16b49d7591554391cc8aed8a4dd30f5", null ],
     [ "erase", "classqpp_1_1geometry.html#a6ed464f5c351b33f3f714902ff823d03", null ],
+    [ "init_default", "classqpp_1_1geometry.html#aaf36bd32b048b21fdda74c6098ee4c15", null ],
     [ "insert", "classqpp_1_1geometry.html#a54b98ad9c35648ba779f2ee26689d9f2", null ],
     [ "insert", "classqpp_1_1geometry.html#ab747c52d87fc66b7d606e8faa4ea8350", null ],
     [ "n_atom_types", "classqpp_1_1geometry.html#ad8288f559ca6daba091d1e5df2a59f35", null ],
@@ -45,8 +46,11 @@ var classqpp_1_1geometry =
     [ "type_table", "classqpp_1_1geometry.html#a5ce0f6ace8957bb6684ab1daccad151f", null ],
     [ "write", "classqpp_1_1geometry.html#a8c58840d7ba0b2e4955b54f76317f559", null ],
     [ "_atm", "classqpp_1_1geometry.html#a93664bf24b76628e5505325241141182", null ],
+    [ "_atm_types", "classqpp_1_1geometry.html#a6e8bef57706fabe25515593ba9bc1993", null ],
     [ "_crd", "classqpp_1_1geometry.html#ab6e157cd28b5b34c3792d7636ab285d6", null ],
     [ "_shadow", "classqpp_1_1geometry.html#ab469f04b13008cfc770deeb743f7d7f1", null ],
+    [ "_symm_rad", "classqpp_1_1geometry.html#a65fc1ff74d62f74100ff0247479abb62", null ],
+    [ "_type_table", "classqpp_1_1geometry.html#ad0063356c8ebb6acbb2cbe635363110b", null ],
     [ "auto_symmetrize", "classqpp_1_1geometry.html#ac4f8a21398e1d2fbcb046fc3f047d3cf", null ],
     [ "auto_update_types", "classqpp_1_1geometry.html#a7f8c7a5b271ce1991aca7ac3fa507e87", null ],
     [ "cell", "classqpp_1_1geometry.html#a65f8e6119131aa13f6ff9e9c0bdbe6bc", null ],
@@ -55,5 +59,6 @@ var classqpp_1_1geometry =
     [ "frac", "classqpp_1_1geometry.html#ac2762e4c03ff7b764d14eb339bb868bf", null ],
     [ "name", "classqpp_1_1geometry.html#ac8c3271a77e8733687d5dad1ef8b1647", null ],
     [ "observers", "classqpp_1_1geometry.html#ad402af60d36764c56a385ecf8a70aa60", null ],
-    [ "tol_geom", "classqpp_1_1geometry.html#a57b21ccaa07fb50ca7f3755ddcefc0ca", null ]
+    [ "tol_geom", "classqpp_1_1geometry.html#a57b21ccaa07fb50ca7f3755ddcefc0ca", null ],
+    [ "tol_geom_default", "classqpp_1_1geometry.html#a525200d614f5ec7e2065370a7613cf41", null ]
 ];

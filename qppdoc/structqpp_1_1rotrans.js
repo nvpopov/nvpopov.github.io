@@ -11,5 +11,8 @@ var structqpp_1_1rotrans =
     [ "operator==", "structqpp_1_1rotrans.html#a5ce0e38efc37af6ba46f285b9e56e216", null ],
     [ "write", "structqpp_1_1rotrans.html#ac3db736d1e7e822d8cb3c6144cff7c49", null ],
     [ "R", "structqpp_1_1rotrans.html#ab80f553a56685369f319f7351f7c5ee7", null ],
-    [ "T", "structqpp_1_1rotrans.html#a6231dc4b1b3ea73e28d78ca8ed113a87", null ]
+    [ "rotation_tolerance", "structqpp_1_1rotrans.html#a0095c9bf071dcc6617be9016da293f0f", null ],
+    [ "T", "structqpp_1_1rotrans.html#a6231dc4b1b3ea73e28d78ca8ed113a87", null ],
+    [ "translation_tolerance", "structqpp_1_1rotrans.html#af65939a2465e46e9b40406e6e0720443", null ],
+    [ "unity", "structqpp_1_1rotrans.html#a55ee701adf4fee1b85fa7aaca158787d", null ]
 ];

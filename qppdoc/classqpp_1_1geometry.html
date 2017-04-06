@@ -111,11 +111,16 @@ $(document).ready(function(){initNavTree('classqpp_1_1geometry.html','');});
 <a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="#pub-static-attribs">Static Public Attributes</a> &#124;
 <a href="#pro-attribs">Protected Attributes</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="classqpp_1_1geometry-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">qpp::geometry&lt; REAL, CELL &gt; Class Template Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>Test brief The supercell concept generalization for the geometry class looks like: template&lt; int DIM, class REAL&gt; class CELL{ public: index&lt;DIM&gt; begin(); index&lt;DIM&gt; end(); <a class="el" href="classqpp_1_1vector3d.html">vector3d&lt;REAL&gt;</a> transform(const vector3d&lt;REAL&gt; &amp; r, const index&lt;DIM&gt; &amp; I); bool within(const vector3d&lt;REAL&gt; &amp; r); <a class="el" href="classqpp_1_1vector3d.html">vector3d&lt;REAL&gt;</a> reduce(const vector3d&lt;REAL&gt; &amp; r); find high symmetry point within "radius" distance from given point "r" makes sence for rotational symmetries <a class="el" href="classqpp_1_1vector3d.html">vector3d&lt;REAL&gt;</a> symmetrize(const vector3d&lt;REAL&gt; &amp; r, REAL radius); fractional to cartesian and vice versa transformation makes sence only for periodic translational cells <a class="el" href="classqpp_1_1vector3d.html">vector3d&lt;REAL&gt;</a> frac2cart(const vector3d&lt;REAL&gt; &amp; r); <a class="el" href="classqpp_1_1vector3d.html">vector3d&lt;REAL&gt;</a> cart2frac(const vector3d&lt;REAL&gt; &amp; r); };.  
+ <a href="classqpp_1_1geometry.html#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="geom_8hpp_source.html">geom.hpp</a>&gt;</code></p>
 <div class="dynheader">
@@ -123,6 +128,9 @@ Collaboration diagram for qpp::geometry&lt; REAL, CELL &gt;:</div>
 <div class="dyncontent">
 <div class="center"><img src="classqpp_1_1geometry__coll__graph.png" border="0" usemap="#qpp_1_1geometry_3_01_r_e_a_l_00_01_c_e_l_l_01_4_coll__map" alt="Collaboration graph"/></div>
 <map name="qpp_1_1geometry_3_01_r_e_a_l_00_01_c_e_l_l_01_4_coll__map" id="qpp_1_1geometry_3_01_r_e_a_l_00_01_c_e_l_l_01_4_coll__map">
+<area shape="rect" id="node9" href="classqpp_1_1vector3d.html" title="qpp::vector3d\&lt; REAL \&gt;" alt="" coords="248,389,408,416"/>
+<area shape="rect" id="node10" href="classqpp_1_1simple__vector.html" title="qpp::simple_vector\l\&lt; REAL, 3 \&gt;" alt="" coords="8,349,140,390"/>
+<area shape="rect" id="node11" href="structqpp_1_1numeric__type.html" title="qpp::numeric_type\&lt;\l REAL \&gt;" alt="" coords="5,414,143,455"/>
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
@@ -136,10 +144,13 @@ Public Types</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a0afcd06552096a2a33b64f2dbdb77d4b"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqpp_1_1geometry.html#a0afcd06552096a2a33b64f2dbdb77d4b">size</a> () const </td></tr>
+<tr class="memdesc:a0afcd06552096a2a33b64f2dbdb77d4b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of atoms.  <a href="#a0afcd06552096a2a33b64f2dbdb77d4b">More...</a><br /></td></tr>
 <tr class="separator:a0afcd06552096a2a33b64f2dbdb77d4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aae36f0b11b3a40401bb18bcce4e738c4"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqpp_1_1geometry.html#aae36f0b11b3a40401bb18bcce4e738c4">nat</a> () const </td></tr>
+<tr class="memdesc:aae36f0b11b3a40401bb18bcce4e738c4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Synonim.  <a href="#aae36f0b11b3a40401bb18bcce4e738c4">More...</a><br /></td></tr>
 <tr class="separator:aae36f0b11b3a40401bb18bcce4e738c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1e5499851c499f6f6b30615ee4e56f83"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8hpp.html#a0f4d394a3ab4e09bff60f714c66dc5ee">STRING</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqpp_1_1geometry.html#a1e5499851c499f6f6b30615ee4e56f83">atom</a> (int at)</td></tr>
+<tr class="memdesc:a1e5499851c499f6f6b30615ee4e56f83"><td class="mdescLeft">&#160;</td><td class="mdescRight">The name of i-th atom.  <a href="#a1e5499851c499f6f6b30615ee4e56f83">More...</a><br /></td></tr>
 <tr class="separator:a1e5499851c499f6f6b30615ee4e56f83"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a61b516254cd7b1f629405b50e429607b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8hpp.html#a0f4d394a3ab4e09bff60f714c66dc5ee">STRING</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqpp_1_1geometry.html#a61b516254cd7b1f629405b50e429607b">atom</a> (int at) const </td></tr>
 <tr class="separator:a61b516254cd7b1f629405b50e429607b"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -152,30 +163,40 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a8b16494045b4519bd4ac01f7a664fdbd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classqpp_1_1vector3d.html">vector3d</a>&lt; REAL &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqpp_1_1geometry.html#a8b16494045b4519bd4ac01f7a664fdbd">r</a> (int at, const <a class="el" href="classqpp_1_1index.html">index</a> &amp;I) const </td></tr>
 <tr class="separator:a8b16494045b4519bd4ac01f7a664fdbd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aab0e531774425fde708c6c6d3bc2b0d7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classqpp_1_1vector3d.html">vector3d</a>&lt; REAL &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqpp_1_1geometry.html#aab0e531774425fde708c6c6d3bc2b0d7">pos</a> (int at) const </td></tr>
+<tr class="memdesc:aab0e531774425fde708c6c6d3bc2b0d7"><td class="mdescLeft">&#160;</td><td class="mdescRight">The synonym.  <a href="#aab0e531774425fde708c6c6d3bc2b0d7">More...</a><br /></td></tr>
 <tr class="separator:aab0e531774425fde708c6c6d3bc2b0d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a76a31f4c884a3ada88b327d3450bb6b4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classqpp_1_1vector3d.html">vector3d</a>&lt; REAL &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqpp_1_1geometry.html#a76a31f4c884a3ada88b327d3450bb6b4">pos</a> (int at, const <a class="el" href="classqpp_1_1index.html">index</a> &amp;I) const </td></tr>
 <tr class="separator:a76a31f4c884a3ada88b327d3450bb6b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8d858361d30b61905b78c61c1f83acbc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classqpp_1_1vector3d.html">vector3d</a>&lt; REAL &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqpp_1_1geometry.html#a8d858361d30b61905b78c61c1f83acbc">r</a> (const <a class="el" href="classqpp_1_1index.html">index</a> &amp;ai) const </td></tr>
+<tr class="memdesc:a8d858361d30b61905b78c61c1f83acbc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Another synonym with atom_index.  <a href="#a8d858361d30b61905b78c61c1f83acbc">More...</a><br /></td></tr>
 <tr class="separator:a8d858361d30b61905b78c61c1f83acbc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a943c8ffa2ae246a7c8e5a8a5d1dcd25b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classqpp_1_1vector3d.html">vector3d</a>&lt; REAL &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqpp_1_1geometry.html#a943c8ffa2ae246a7c8e5a8a5d1dcd25b">pos</a> (const <a class="el" href="classqpp_1_1index.html">index</a> &amp;ai) const </td></tr>
+<tr class="memdesc:a943c8ffa2ae246a7c8e5a8a5d1dcd25b"><td class="mdescLeft">&#160;</td><td class="mdescRight">The synonym.  <a href="#a943c8ffa2ae246a7c8e5a8a5d1dcd25b">More...</a><br /></td></tr>
 <tr class="separator:a943c8ffa2ae246a7c8e5a8a5d1dcd25b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a732ef98b83658b8f1eee45e5696e99c4"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqpp_1_1geometry.html#a732ef98b83658b8f1eee45e5696e99c4">shadow</a> (int at) const </td></tr>
 <tr class="separator:a732ef98b83658b8f1eee45e5696e99c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad8288f559ca6daba091d1e5df2a59f35"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqpp_1_1geometry.html#ad8288f559ca6daba091d1e5df2a59f35">n_atom_types</a> () const </td></tr>
+<tr class="memdesc:ad8288f559ca6daba091d1e5df2a59f35"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of atomic types in molecule.  <a href="#ad8288f559ca6daba091d1e5df2a59f35">More...</a><br /></td></tr>
 <tr class="separator:ad8288f559ca6daba091d1e5df2a59f35"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adeafe88b98f606098e547c8e9b593b5a"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqpp_1_1geometry.html#adeafe88b98f606098e547c8e9b593b5a">n_types</a> () const </td></tr>
 <tr class="separator:adeafe88b98f606098e547c8e9b593b5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaee68cc22fc8ba6aa2fc4865c7292ae4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8hpp.html#a0f4d394a3ab4e09bff60f714c66dc5ee">STRING</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqpp_1_1geometry.html#aaee68cc22fc8ba6aa2fc4865c7292ae4">atom_of_type</a> (int t) const </td></tr>
+<tr class="memdesc:aaee68cc22fc8ba6aa2fc4865c7292ae4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reference to atom of type number t (not the atom number t in atomic list!)  <a href="#aaee68cc22fc8ba6aa2fc4865c7292ae4">More...</a><br /></td></tr>
 <tr class="separator:aaee68cc22fc8ba6aa2fc4865c7292ae4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aadfb61155f3938bd210b9c70afa80a51"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqpp_1_1geometry.html#aadfb61155f3938bd210b9c70afa80a51">type_of_atom</a> (const <a class="el" href="types_8hpp.html#a0f4d394a3ab4e09bff60f714c66dc5ee">STRING</a> &amp;at) const </td></tr>
+<tr class="memdesc:aadfb61155f3938bd210b9c70afa80a51"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of type of certain ATOM at.  <a href="#aadfb61155f3938bd210b9c70afa80a51">More...</a><br /></td></tr>
 <tr class="separator:aadfb61155f3938bd210b9c70afa80a51"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a537f27dfebfb5b2ed880f0890ca318c1"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqpp_1_1geometry.html#a537f27dfebfb5b2ed880f0890ca318c1">type</a> (const <a class="el" href="types_8hpp.html#a0f4d394a3ab4e09bff60f714c66dc5ee">STRING</a> &amp;at) const </td></tr>
+<tr class="memdesc:a537f27dfebfb5b2ed880f0890ca318c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">synonym  <a href="#a537f27dfebfb5b2ed880f0890ca318c1">More...</a><br /></td></tr>
 <tr class="separator:a537f27dfebfb5b2ed880f0890ca318c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5ce0f6ace8957bb6684ab1daccad151f"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqpp_1_1geometry.html#a5ce0f6ace8957bb6684ab1daccad151f">type_table</a> (int i) const </td></tr>
+<tr class="memdesc:a5ce0f6ace8957bb6684ab1daccad151f"><td class="mdescLeft">&#160;</td><td class="mdescRight">type of i-th atom in the geometry  <a href="#a5ce0f6ace8957bb6684ab1daccad151f">More...</a><br /></td></tr>
 <tr class="separator:a5ce0f6ace8957bb6684ab1daccad151f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6ebbb3211d43375f8662438f3c171553"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqpp_1_1geometry.html#a6ebbb3211d43375f8662438f3c171553">type</a> (int i) const </td></tr>
+<tr class="memdesc:a6ebbb3211d43375f8662438f3c171553"><td class="mdescLeft">&#160;</td><td class="mdescRight">synonym  <a href="#a6ebbb3211d43375f8662438f3c171553">More...</a><br /></td></tr>
 <tr class="separator:a6ebbb3211d43375f8662438f3c171553"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a27a9858756f36edb9964894a7cd90cc6"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqpp_1_1geometry.html#a27a9858756f36edb9964894a7cd90cc6">type_of_atom</a> (int i) const </td></tr>
+<tr class="memdesc:a27a9858756f36edb9964894a7cd90cc6"><td class="mdescLeft">&#160;</td><td class="mdescRight">synonym  <a href="#a27a9858756f36edb9964894a7cd90cc6">More...</a><br /></td></tr>
 <tr class="separator:a27a9858756f36edb9964894a7cd90cc6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4a8fd67800a84fa506493ffce21f4e64"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqpp_1_1geometry.html#a4a8fd67800a84fa506493ffce21f4e64">build_type_table</a> ()</td></tr>
 <tr class="separator:a4a8fd67800a84fa506493ffce21f4e64"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -227,16 +248,20 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:ab6e157cd28b5b34c3792d7636ab285d6"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="classqpp_1_1vector3d.html">vector3d</a>&lt; REAL &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqpp_1_1geometry.html#ab6e157cd28b5b34c3792d7636ab285d6">_crd</a></td></tr>
 <tr class="separator:ab6e157cd28b5b34c3792d7636ab285d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab469f04b13008cfc770deeb743f7d7f1"><td class="memItemLeft" align="right" valign="top">std::vector&lt; char &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqpp_1_1geometry.html#ab469f04b13008cfc770deeb743f7d7f1">_shadow</a></td></tr>
+<tr class="memdesc:ab469f04b13008cfc770deeb743f7d7f1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Special logical array allows to "hide" or "shadow" some atoms.  <a href="#ab469f04b13008cfc770deeb743f7d7f1">More...</a><br /></td></tr>
 <tr class="separator:ab469f04b13008cfc770deeb743f7d7f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a57b21ccaa07fb50ca7f3755ddcefc0ca"><td class="memItemLeft" align="right" valign="top">REAL&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqpp_1_1geometry.html#a57b21ccaa07fb50ca7f3755ddcefc0ca">tol_geom</a></td></tr>
 <tr class="separator:a57b21ccaa07fb50ca7f3755ddcefc0ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9ce0f325aaf9f997654d8eff505196ae"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqpp_1_1geometry.html#a9ce0f325aaf9f997654d8eff505196ae">DIM</a></td></tr>
 <tr class="separator:a9ce0f325aaf9f997654d8eff505196ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a65f8e6119131aa13f6ff9e9c0bdbe6bc"><td class="memItemLeft" align="right" valign="top">CELL *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqpp_1_1geometry.html#a65f8e6119131aa13f6ff9e9c0bdbe6bc">cell</a></td></tr>
+<tr class="memdesc:a65f8e6119131aa13f6ff9e9c0bdbe6bc"><td class="mdescLeft">&#160;</td><td class="mdescRight">cell for periodic boundary conditions and on-the-fly transformations  <a href="#a65f8e6119131aa13f6ff9e9c0bdbe6bc">More...</a><br /></td></tr>
 <tr class="separator:a65f8e6119131aa13f6ff9e9c0bdbe6bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7f8c7a5b271ce1991aca7ac3fa507e87"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqpp_1_1geometry.html#a7f8c7a5b271ce1991aca7ac3fa507e87">auto_update_types</a></td></tr>
+<tr class="memdesc:a7f8c7a5b271ce1991aca7ac3fa507e87"><td class="mdescLeft">&#160;</td><td class="mdescRight">whether to update typetable on-the-fly  <a href="#a7f8c7a5b271ce1991aca7ac3fa507e87">More...</a><br /></td></tr>
 <tr class="separator:a7f8c7a5b271ce1991aca7ac3fa507e87"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac2762e4c03ff7b764d14eb339bb868bf"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqpp_1_1geometry.html#ac2762e4c03ff7b764d14eb339bb868bf">frac</a></td></tr>
+<tr class="memdesc:ac2762e4c03ff7b764d14eb339bb868bf"><td class="mdescLeft">&#160;</td><td class="mdescRight">whether fractional coordinates are used  <a href="#ac2762e4c03ff7b764d14eb339bb868bf">More...</a><br /></td></tr>
 <tr class="separator:ac2762e4c03ff7b764d14eb339bb868bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac8c3271a77e8733687d5dad1ef8b1647"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8hpp.html#a0f4d394a3ab4e09bff60f714c66dc5ee">STRING</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqpp_1_1geometry.html#ac8c3271a77e8733687d5dad1ef8b1647">name</a></td></tr>
 <tr class="separator:ac8c3271a77e8733687d5dad1ef8b1647"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -254,8 +279,34 @@ Static Public Attributes</h2></td></tr>
 Protected Attributes</h2></td></tr>
 <tr class="memitem:ad402af60d36764c56a385ecf8a70aa60"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="structqpp_1_1geometry__observer.html">geometry_observer</a>&lt; REAL &gt; * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqpp_1_1geometry.html#ad402af60d36764c56a385ecf8a70aa60">observers</a></td></tr>
 <tr class="separator:ad402af60d36764c56a385ecf8a70aa60"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:aaf36bd32b048b21fdda74c6098ee4c15"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqpp_1_1geometry.html#aaf36bd32b048b21fdda74c6098ee4c15">init_default</a> ()</td></tr>
+<tr class="separator:aaf36bd32b048b21fdda74c6098ee4c15"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:a6e8bef57706fabe25515593ba9bc1993"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="types_8hpp.html#a0f4d394a3ab4e09bff60f714c66dc5ee">STRING</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqpp_1_1geometry.html#a6e8bef57706fabe25515593ba9bc1993">_atm_types</a></td></tr>
+<tr class="separator:a6e8bef57706fabe25515593ba9bc1993"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad0063356c8ebb6acbb2cbe635363110b"><td class="memItemLeft" align="right" valign="top">std::vector&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqpp_1_1geometry.html#ad0063356c8ebb6acbb2cbe635363110b">_type_table</a></td></tr>
+<tr class="separator:ad0063356c8ebb6acbb2cbe635363110b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a65fc1ff74d62f74100ff0247479abb62"><td class="memItemLeft" align="right" valign="top">std::vector&lt; REAL &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqpp_1_1geometry.html#a65fc1ff74d62f74100ff0247479abb62">_symm_rad</a></td></tr>
+<tr class="separator:a65fc1ff74d62f74100ff0247479abb62"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Typedef Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><h3>template&lt;class REAL, class CELL&gt;<br />
+class qpp::geometry&lt; REAL, CELL &gt;</h3>
+
+<p>Test brief The supercell concept generalization for the geometry class looks like: template&lt; int DIM, class REAL&gt; class CELL{ public: index&lt;DIM&gt; begin(); index&lt;DIM&gt; end(); <a class="el" href="classqpp_1_1vector3d.html">vector3d&lt;REAL&gt;</a> transform(const vector3d&lt;REAL&gt; &amp; r, const index&lt;DIM&gt; &amp; I); bool within(const vector3d&lt;REAL&gt; &amp; r); <a class="el" href="classqpp_1_1vector3d.html">vector3d&lt;REAL&gt;</a> reduce(const vector3d&lt;REAL&gt; &amp; r); find high symmetry point within "radius" distance from given point "r" makes sence for rotational symmetries <a class="el" href="classqpp_1_1vector3d.html">vector3d&lt;REAL&gt;</a> symmetrize(const vector3d&lt;REAL&gt; &amp; r, REAL radius); fractional to cartesian and vice versa transformation makes sence only for periodic translational cells <a class="el" href="classqpp_1_1vector3d.html">vector3d&lt;REAL&gt;</a> frac2cart(const vector3d&lt;REAL&gt; &amp; r); <a class="el" href="classqpp_1_1vector3d.html">vector3d&lt;REAL&gt;</a> cart2frac(const vector3d&lt;REAL&gt; &amp; r); };. </p>
+<p>Any class having these methods - can be used as a "supercell" for some geometry</p>
+<p>template &lt;int dim&gt;=""&gt; struct atom_index { int atom; index&lt;DIM&gt; cell;</p>
+<p>atom_index(int _atom, const index&lt;DIM&gt; &amp; _cell = index&lt;DIM&gt;::all(0)) { atom = _atom; cell = _cell; }</p>
+<p>inline operator int() const {return atom;}</p>
+<p>inline bool operator==(const atom_index&lt;DIM&gt; &amp; ai) { return atom == ai.atom &amp;&amp; cell == ai.cell; }</p>
+<p>inline bool operator!=(const atom_index&lt;DIM&gt; &amp; ai) { return atom != ai.atom || cell != ai.cell; }</p>
+<p>}; Geometry updated objects One geometry can maintain arbitrary number of "observers", i.e. objects which need to know about the changes made to geometry. Geometry will inform them all when atoms are added, inserted or removed </p>
+</div><h2 class="groupheader">Member Typedef Documentation</h2>
 <a class="anchor" id="a9ada8d2a164215e5b813d36d24694e04"></a>
 <div class="memitem">
 <div class="memproto">
@@ -543,6 +594,8 @@ template&lt;class REAL, class CELL&gt; </div>
 </table>
 </div><div class="memdoc">
 
+<p>The name of i-th atom. </p>
+
 </div>
 </div>
 <a class="anchor" id="a61b516254cd7b1f629405b50e429607b"></a>
@@ -594,6 +647,8 @@ template&lt;class REAL, class CELL&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Reference to atom of type number t (not the atom number t in atomic list!) </p>
 
 </div>
 </div>
@@ -737,6 +792,12 @@ template&lt;class REAL, class CELL&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>coord gives the coordinates of i-th atom in the cell </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">at</td><td>id of atom in cell </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -786,6 +847,31 @@ template&lt;class REAL, class CELL&gt; </div>
   </td>
   <td class="mlabels-right">
 <span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aaf36bd32b048b21fdda74c6098ee4c15"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class REAL, class CELL&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="classqpp_1_1geometry.html">qpp::geometry</a>&lt; REAL, CELL &gt;::init_default </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -911,6 +997,8 @@ template&lt;class REAL, class CELL&gt; </div>
 </table>
 </div><div class="memdoc">
 
+<p>Number of atomic types in molecule. </p>
+
 </div>
 </div>
 <a class="anchor" id="adeafe88b98f606098e547c8e9b593b5a"></a>
@@ -961,6 +1049,8 @@ template&lt;class REAL, class CELL&gt; </div>
 </table>
 </div><div class="memdoc">
 
+<p>Synonim. </p>
+
 </div>
 </div>
 <a class="anchor" id="aab0e531774425fde708c6c6d3bc2b0d7"></a>
@@ -986,6 +1076,8 @@ template&lt;class REAL, class CELL&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>The synonym. </p>
 
 </div>
 </div>
@@ -1049,6 +1141,8 @@ template&lt;class REAL, class CELL&gt; </div>
 </table>
 </div><div class="memdoc">
 
+<p>The synonym. </p>
+
 </div>
 </div>
 <a class="anchor" id="a0898c26f6b5b9c0d5806741d07d48365"></a>
@@ -1074,6 +1168,7 @@ template&lt;class REAL, class CELL&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>real-space position of i-th atom, including i[0] as atom number and other i components as symmetry indicies </p>
 
 </div>
 </div>
@@ -1136,6 +1231,8 @@ template&lt;class REAL, class CELL&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Another synonym with atom_index. </p>
 
 </div>
 </div>
@@ -1322,6 +1419,8 @@ template&lt;class REAL, class CELL&gt; </div>
 </table>
 </div><div class="memdoc">
 
+<p>Number of atoms. </p>
+
 </div>
 </div>
 <a class="anchor" id="a53c53a87fa741ff13be7e6d14a2cbc20"></a>
@@ -1400,6 +1499,8 @@ template&lt;class REAL, class CELL&gt; </div>
 </table>
 </div><div class="memdoc">
 
+<p>synonym </p>
+
 </div>
 </div>
 <a class="anchor" id="a6ebbb3211d43375f8662438f3c171553"></a>
@@ -1425,6 +1526,8 @@ template&lt;class REAL, class CELL&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>synonym </p>
 
 </div>
 </div>
@@ -1452,6 +1555,8 @@ template&lt;class REAL, class CELL&gt; </div>
 </table>
 </div><div class="memdoc">
 
+<p>Number of type of certain ATOM at. </p>
+
 </div>
 </div>
 <a class="anchor" id="a27a9858756f36edb9964894a7cd90cc6"></a>
@@ -1478,6 +1583,8 @@ template&lt;class REAL, class CELL&gt; </div>
 </table>
 </div><div class="memdoc">
 
+<p>synonym </p>
+
 </div>
 </div>
 <a class="anchor" id="a5ce0f6ace8957bb6684ab1daccad151f"></a>
@@ -1503,6 +1610,8 @@ template&lt;class REAL, class CELL&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>type of i-th atom in the geometry </p>
 
 </div>
 </div>
@@ -1557,6 +1666,28 @@ template&lt;class REAL, class CELL&gt; </div>
 
 </div>
 </div>
+<a class="anchor" id="a6e8bef57706fabe25515593ba9bc1993"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class REAL, class CELL&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;<a class="el" href="types_8hpp.html#a0f4d394a3ab4e09bff60f714c66dc5ee">STRING</a>&gt; <a class="el" href="classqpp_1_1geometry.html">qpp::geometry</a>&lt; REAL, CELL &gt;::_atm_types</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a class="anchor" id="ab6e157cd28b5b34c3792d7636ab285d6"></a>
 <div class="memitem">
 <div class="memproto">
@@ -1581,6 +1712,52 @@ template&lt;class REAL, class CELL&gt; </div>
           <td class="memname">std::vector&lt;char&gt; <a class="el" href="classqpp_1_1geometry.html">qpp::geometry</a>&lt; REAL, CELL &gt;::_shadow</td>
         </tr>
       </table>
+</div><div class="memdoc">
+
+<p>Special logical array allows to "hide" or "shadow" some atoms. </p>
+
+</div>
+</div>
+<a class="anchor" id="a65fc1ff74d62f74100ff0247479abb62"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class REAL, class CELL&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;REAL&gt; <a class="el" href="classqpp_1_1geometry.html">qpp::geometry</a>&lt; REAL, CELL &gt;::_symm_rad</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ad0063356c8ebb6acbb2cbe635363110b"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class REAL, class CELL&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;int&gt; <a class="el" href="classqpp_1_1geometry.html">qpp::geometry</a>&lt; REAL, CELL &gt;::_type_table</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
@@ -1611,6 +1788,8 @@ template&lt;class REAL, class CELL&gt; </div>
       </table>
 </div><div class="memdoc">
 
+<p>whether to update typetable on-the-fly </p>
+
 </div>
 </div>
 <a class="anchor" id="a65f8e6119131aa13f6ff9e9c0bdbe6bc"></a>
@@ -1624,6 +1803,8 @@ template&lt;class REAL, class CELL&gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>cell for periodic boundary conditions and on-the-fly transformations </p>
 
 </div>
 </div>
@@ -1666,6 +1847,8 @@ template&lt;class REAL, class CELL&gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>whether fractional coordinates are used </p>
 
 </div>
 </div>

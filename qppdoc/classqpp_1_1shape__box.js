@@ -5,6 +5,7 @@ var classqpp_1_1shape__box =
     [ "shape_box", "classqpp_1_1shape__box.html#a499a226726d993b4507f8db15e2dd128", null ],
     [ "shape_box", "classqpp_1_1shape__box.html#aecb0fcba27326e585d0f1853f1fae5b0", null ],
     [ "shape_box", "classqpp_1_1shape__box.html#a7b65a6ce9ee080c756517048c353d453", null ],
+    [ "fill_corners", "classqpp_1_1shape__box.html#a7599c30fa3ebba2b21714fbef38eeae6", null ],
     [ "fmax", "classqpp_1_1shape__box.html#a32d3168720b40bd3999995f5287179ad", null ],
     [ "fmin", "classqpp_1_1shape__box.html#a64c9aba7ea5a5bfc6723b06fc8c15da5", null ],
     [ "move", "classqpp_1_1shape__box.html#aa51988462fc25b557828d288248b38c7", null ],
@@ -14,5 +15,7 @@ var classqpp_1_1shape__box =
     [ "scale", "classqpp_1_1shape__box.html#a42362d0c92e6584397f2a7f88c6dbf38", null ],
     [ "volume", "classqpp_1_1shape__box.html#aa9caf8a543850665d296af7a53b3d6ab", null ],
     [ "within", "classqpp_1_1shape__box.html#ada80e08c1fc66565a90b7994c07a154f", null ],
-    [ "write", "classqpp_1_1shape__box.html#ab97ad55f6ff903eb2f2a2e89a0245edb", null ]
+    [ "write", "classqpp_1_1shape__box.html#ab97ad55f6ff903eb2f2a2e89a0245edb", null ],
+    [ "a", "classqpp_1_1shape__box.html#ac203d106a76387a037f67d3bfd5b3824", null ],
+    [ "crn", "classqpp_1_1shape__box.html#ac5a455f224d9eb579d4f4b9b9a837fa6", null ]
 ];

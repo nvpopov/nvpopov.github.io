@@ -15,7 +15,12 @@ var classqpp_1_1atom =
     [ "classic", "classqpp_1_1atom.html#a04c57b9447182b56cb07510d7eb77690", null ],
     [ "name", "classqpp_1_1atom.html#a4d9e31d941dfc321baf51680be0f830a", null ],
     [ "number", "classqpp_1_1atom.html#a413ec1e06d5a5c998294b03434525954", null ],
+    [ "pbasis", "classqpp_1_1atom.html#a7db74a8aa35957281408fb2a4cf262c6", null ],
+    [ "pclassic", "classqpp_1_1atom.html#a87cdca517a1c37f2a6167aa25513dc4e", null ],
     [ "polar", "classqpp_1_1atom.html#a868f57af9161719d97482ffd9e8a7376", null ],
+    [ "ppolar", "classqpp_1_1atom.html#a25be20e002153eade7eadc3fc1c3070f", null ],
+    [ "ppseudo", "classqpp_1_1atom.html#a734717ef1ff6b22f8999e6c49da21161", null ],
     [ "pseudo", "classqpp_1_1atom.html#a38fc736380976cca3312ecdada08a0d4", null ],
+    [ "pvisible", "classqpp_1_1atom.html#a7b63301c4a660272ee5191d32c962c3f", null ],
     [ "visible", "classqpp_1_1atom.html#a24d7de98f584bb63b417e261950db60d", null ]
 ];

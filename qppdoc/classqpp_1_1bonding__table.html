@@ -110,6 +110,8 @@ $(document).ready(function(){initNavTree('classqpp_1_1bonding__table.html','');}
 <a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="classqpp_1_1bonding__table-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">qpp::bonding_table&lt; REAL &gt; Class Template Reference</div>  </div>
@@ -117,7 +119,23 @@ $(document).ready(function(){initNavTree('classqpp_1_1bonding__table.html','');}
 <div class="contents">
 
 <p><code>#include &lt;<a class="el" href="ngbr_8hpp_source.html">ngbr.hpp</a>&gt;</code></p>
+<div class="dynheader">
+Collaboration diagram for qpp::bonding_table&lt; REAL &gt;:</div>
+<div class="dyncontent">
+<div class="center"><img src="classqpp_1_1bonding__table__coll__graph.png" border="0" usemap="#qpp_1_1bonding__table_3_01_r_e_a_l_01_4_coll__map" alt="Collaboration graph"/></div>
+<map name="qpp_1_1bonding__table_3_01_r_e_a_l_01_4_coll__map" id="qpp_1_1bonding__table_3_01_r_e_a_l_01_4_coll__map">
+<area shape="rect" id="node3" href="structqpp_1_1bonding__table_1_1__ngbr__record.html" title="qpp::bonding_table\l\&lt; REAL \&gt;::_ngbr_record" alt="" coords="13,5,177,47"/>
+<area shape="rect" id="node5" href="structqpp_1_1bonding__table_1_1__covrad__record.html" title="qpp::bonding_table\l\&lt; REAL \&gt;::_covrad_record" alt="" coords="5,71,184,112"/>
+</map>
+<center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structqpp_1_1bonding__table_1_1__covrad__record.html">_covrad_record</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structqpp_1_1bonding__table_1_1__ngbr__record.html">_ngbr_record</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
 Public Types</h2></td></tr>
 <tr class="memitem:a629367307c1e9fac0707daef7501ed81"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="classqpp_1_1bonding__table.html">bonding_table</a>&lt; REAL &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqpp_1_1bonding__table.html#a629367307c1e9fac0707daef7501ed81">SELF</a></td></tr>
@@ -150,6 +168,24 @@ Public Attributes</h2></td></tr>
 <tr class="separator:a9dbe3408811715d9441b016c24d45e7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8e7d872d0e5c1577116b44b17a29ebf7"><td class="memItemLeft" align="right" valign="top">REAL&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqpp_1_1bonding__table.html#a8e7d872d0e5c1577116b44b17a29ebf7">default_distance</a></td></tr>
 <tr class="separator:a8e7d872d0e5c1577116b44b17a29ebf7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:ab810aa3a969ffa640bd084f796bc7e79"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqpp_1_1bonding__table.html#ab810aa3a969ffa640bd084f796bc7e79">_covrad_match</a> (const <a class="el" href="types_8hpp.html#a0f4d394a3ab4e09bff60f714c66dc5ee">STRING</a> &amp;at, int i) const </td></tr>
+<tr class="separator:ab810aa3a969ffa640bd084f796bc7e79"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6c6f09996d4de67e89ba6beeb377a413"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqpp_1_1bonding__table.html#a6c6f09996d4de67e89ba6beeb377a413">_find_covrad</a> (const <a class="el" href="types_8hpp.html#a0f4d394a3ab4e09bff60f714c66dc5ee">STRING</a> &amp;at) const </td></tr>
+<tr class="separator:a6c6f09996d4de67e89ba6beeb377a413"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a885413a0886665d60c4f3955f43139b7"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqpp_1_1bonding__table.html#a885413a0886665d60c4f3955f43139b7">_record_match</a> (const <a class="el" href="types_8hpp.html#a0f4d394a3ab4e09bff60f714c66dc5ee">STRING</a> &amp;at1, const <a class="el" href="types_8hpp.html#a0f4d394a3ab4e09bff60f714c66dc5ee">STRING</a> &amp;at2, int i) const </td></tr>
+<tr class="separator:a885413a0886665d60c4f3955f43139b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a33f1644defa1ca3971a9de047846d828"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqpp_1_1bonding__table.html#a33f1644defa1ca3971a9de047846d828">_find_record</a> (const <a class="el" href="types_8hpp.html#a0f4d394a3ab4e09bff60f714c66dc5ee">STRING</a> &amp;at1, const <a class="el" href="types_8hpp.html#a0f4d394a3ab4e09bff60f714c66dc5ee">STRING</a> &amp;at2) const </td></tr>
+<tr class="separator:a33f1644defa1ca3971a9de047846d828"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:a85685b028a19b2b8c73a021732099c05"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="structqpp_1_1bonding__table_1_1__covrad__record.html">_covrad_record</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqpp_1_1bonding__table.html#a85685b028a19b2b8c73a021732099c05">_covrads</a></td></tr>
+<tr class="separator:a85685b028a19b2b8c73a021732099c05"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8a46bd1e9c4a42f2fc9e21f572219724"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="structqpp_1_1bonding__table_1_1__ngbr__record.html">_ngbr_record</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqpp_1_1bonding__table.html#a8a46bd1e9c4a42f2fc9e21f572219724">_records</a></td></tr>
+<tr class="separator:a8a46bd1e9c4a42f2fc9e21f572219724"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Typedef Documentation</h2>
 <a class="anchor" id="a629367307c1e9fac0707daef7501ed81"></a>
@@ -194,6 +230,146 @@ template&lt;class REAL&gt; </div>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="ab810aa3a969ffa640bd084f796bc7e79"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class REAL&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool <a class="el" href="classqpp_1_1bonding__table.html">qpp::bonding_table</a>&lt; REAL &gt;::_covrad_match </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="types_8hpp.html#a0f4d394a3ab4e09bff60f714c66dc5ee">STRING</a> &amp;&#160;</td>
+          <td class="paramname"><em>at</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>i</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a6c6f09996d4de67e89ba6beeb377a413"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class REAL&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int <a class="el" href="classqpp_1_1bonding__table.html">qpp::bonding_table</a>&lt; REAL &gt;::_find_covrad </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="types_8hpp.html#a0f4d394a3ab4e09bff60f714c66dc5ee">STRING</a> &amp;&#160;</td>
+          <td class="paramname"><em>at</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a33f1644defa1ca3971a9de047846d828"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class REAL&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int <a class="el" href="classqpp_1_1bonding__table.html">qpp::bonding_table</a>&lt; REAL &gt;::_find_record </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="types_8hpp.html#a0f4d394a3ab4e09bff60f714c66dc5ee">STRING</a> &amp;&#160;</td>
+          <td class="paramname"><em>at1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="types_8hpp.html#a0f4d394a3ab4e09bff60f714c66dc5ee">STRING</a> &amp;&#160;</td>
+          <td class="paramname"><em>at2</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a885413a0886665d60c4f3955f43139b7"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class REAL&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool <a class="el" href="classqpp_1_1bonding__table.html">qpp::bonding_table</a>&lt; REAL &gt;::_record_match </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="types_8hpp.html#a0f4d394a3ab4e09bff60f714c66dc5ee">STRING</a> &amp;&#160;</td>
+          <td class="paramname"><em>at1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="types_8hpp.html#a0f4d394a3ab4e09bff60f714c66dc5ee">STRING</a> &amp;&#160;</td>
+          <td class="paramname"><em>at2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>i</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a class="anchor" id="a05d51ae9f12db88cb2f649e768b71f27"></a>
 <div class="memitem">
 <div class="memproto">
@@ -458,6 +634,50 @@ template&lt;class REAL&gt; </div>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a class="anchor" id="a85685b028a19b2b8c73a021732099c05"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class REAL&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;<a class="el" href="structqpp_1_1bonding__table_1_1__covrad__record.html">_covrad_record</a>&gt; <a class="el" href="classqpp_1_1bonding__table.html">qpp::bonding_table</a>&lt; REAL &gt;::_covrads</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a8a46bd1e9c4a42f2fc9e21f572219724"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class REAL&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;<a class="el" href="structqpp_1_1bonding__table_1_1__ngbr__record.html">_ngbr_record</a>&gt; <a class="el" href="classqpp_1_1bonding__table.html">qpp::bonding_table</a>&lt; REAL &gt;::_records</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a class="anchor" id="a8e7d872d0e5c1577116b44b17a29ebf7"></a>
 <div class="memitem">
 <div class="memproto">

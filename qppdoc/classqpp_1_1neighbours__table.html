@@ -109,6 +109,9 @@ $(document).ready(function(){initNavTree('classqpp_1_1neighbours__table.html',''
 <a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="#pri-types">Private Types</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="classqpp_1_1neighbours__table-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">qpp::neighbours_table&lt; REAL, CELL &gt; Class Template Reference</div>  </div>
@@ -129,7 +132,11 @@ Collaboration diagram for qpp::neighbours_table&lt; REAL, CELL &gt;:</div>
 <div class="dyncontent">
 <div class="center"><img src="classqpp_1_1neighbours__table__coll__graph.png" border="0" usemap="#qpp_1_1neighbours__table_3_01_r_e_a_l_00_01_c_e_l_l_01_4_coll__map" alt="Collaboration graph"/></div>
 <map name="qpp_1_1neighbours__table_3_01_r_e_a_l_00_01_c_e_l_l_01_4_coll__map" id="qpp_1_1neighbours__table_3_01_r_e_a_l_00_01_c_e_l_l_01_4_coll__map">
-<area shape="rect" id="node2" href="structqpp_1_1geometry__observer.html" title="qpp::geometry_observer\l\&lt; REAL \&gt;" alt="" coords="5,5,168,47"/>
+<area shape="rect" id="node2" href="structqpp_1_1geometry__observer.html" title="qpp::geometry_observer\l\&lt; REAL \&gt;" alt="" coords="248,5,411,47"/>
+<area shape="rect" id="node3" href="classqpp_1_1index.html" title="qpp::index" alt="" coords="288,71,371,98"/>
+<area shape="rect" id="node4" href="classqpp_1_1vector3d.html" title="qpp::vector3d\&lt; REAL \&gt;" alt="" coords="249,131,409,158"/>
+<area shape="rect" id="node5" href="classqpp_1_1simple__vector.html" title="qpp::simple_vector\l\&lt; REAL, 3 \&gt;" alt="" coords="8,91,140,132"/>
+<area shape="rect" id="node6" href="structqpp_1_1numeric__type.html" title="qpp::numeric_type\&lt;\l REAL \&gt;" alt="" coords="5,156,143,197"/>
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
@@ -197,6 +204,67 @@ Public Attributes</h2></td></tr>
 <tr class="separator:af0309a6e0a590e63349613b847b71d98"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6c5520d818eadc4812dd3ed13e698869"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqpp_1_1neighbours__table.html#a6c5520d818eadc4812dd3ed13e698869">transl_mode</a></td></tr>
 <tr class="separator:a6c5520d818eadc4812dd3ed13e698869"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-types"></a>
+Private Types</h2></td></tr>
+<tr class="memitem:a2d25e2e763786a1ab4c579de2e943e75"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="classqpp_1_1neighbours__table.html">neighbours_table</a>&lt; REAL, CELL &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqpp_1_1neighbours__table.html#a2d25e2e763786a1ab4c579de2e943e75">SELF</a></td></tr>
+<tr class="separator:a2d25e2e763786a1ab4c579de2e943e75"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:a93548eeb9d1ac4d48217cb655a3d244b"><td class="memItemLeft" align="right" valign="top">REAL&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqpp_1_1neighbours__table.html#a93548eeb9d1ac4d48217cb655a3d244b">distance</a> (int i, int j)</td></tr>
+<tr class="separator:a93548eeb9d1ac4d48217cb655a3d244b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac9e54f9d39d7d3197ea3b414d192be4c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqpp_1_1neighbours__table.html#ac9e54f9d39d7d3197ea3b414d192be4c">resize_disttable</a> ()</td></tr>
+<tr class="separator:ac9e54f9d39d7d3197ea3b414d192be4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a109ec6a92100f5c84dd814a00bae1d44"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqpp_1_1neighbours__table.html#a109ec6a92100f5c84dd814a00bae1d44">build_disttable</a> ()</td></tr>
+<tr class="separator:a109ec6a92100f5c84dd814a00bae1d44"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7e3845d364907b8cfe493c415e13bb97"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqpp_1_1neighbours__table.html#a7e3845d364907b8cfe493c415e13bb97">_add_ngbr</a> (int i, const <a class="el" href="classqpp_1_1index.html">index</a> &amp;j)</td></tr>
+<tr class="separator:a7e3845d364907b8cfe493c415e13bb97"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0dd5bb8b08c0bec49f49a680c2d19dba"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqpp_1_1neighbours__table.html#a0dd5bb8b08c0bec49f49a680c2d19dba">translational_grain_setup</a> ()</td></tr>
+<tr class="separator:a0dd5bb8b08c0bec49f49a680c2d19dba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8c09eeb2008d8da7a73ce4411857e0ac"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqpp_1_1neighbours__table.html#a8c09eeb2008d8da7a73ce4411857e0ac">grain_setup</a> ()</td></tr>
+<tr class="separator:a8c09eeb2008d8da7a73ce4411857e0ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a29e52d88728f88c711872c42caef94cf"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqpp_1_1neighbours__table.html#a29e52d88728f88c711872c42caef94cf">gidx</a> (int i, int j, int k)</td></tr>
+<tr class="separator:a29e52d88728f88c711872c42caef94cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a96678140401fdf133b52c13404c3356a"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqpp_1_1neighbours__table.html#a96678140401fdf133b52c13404c3356a">gidx</a> (const <a class="el" href="classqpp_1_1index.html">index</a> &amp;I)</td></tr>
+<tr class="separator:a96678140401fdf133b52c13404c3356a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a30b0167d85c1547e9dd36aea6cb1bcf0"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="classqpp_1_1index.html">index</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqpp_1_1neighbours__table.html#a30b0167d85c1547e9dd36aea6cb1bcf0">grain</a> (int i, int j, int k)</td></tr>
+<tr class="separator:a30b0167d85c1547e9dd36aea6cb1bcf0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afdf89020938e1d23bf439f8a111ef8a7"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="classqpp_1_1index.html">index</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqpp_1_1neighbours__table.html#afdf89020938e1d23bf439f8a111ef8a7">grain</a> (const <a class="el" href="classqpp_1_1index.html">index</a> &amp;I)</td></tr>
+<tr class="separator:afdf89020938e1d23bf439f8a111ef8a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a14e6c3254447e6c73b0f849630a85ccb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classqpp_1_1index.html">index</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqpp_1_1neighbours__table.html#a14e6c3254447e6c73b0f849630a85ccb">igrain</a> (const <a class="el" href="classqpp_1_1index.html">index</a> &amp;at)</td></tr>
+<tr class="separator:a14e6c3254447e6c73b0f849630a85ccb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9b207e551e963f27ac002d24c37fb53b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqpp_1_1neighbours__table.html#a9b207e551e963f27ac002d24c37fb53b">to_grain</a> (const <a class="el" href="classqpp_1_1index.html">index</a> &amp;at)</td></tr>
+<tr class="separator:a9b207e551e963f27ac002d24c37fb53b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adc7d170440cde6e73db19c0ae29ab7d5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqpp_1_1neighbours__table.html#adc7d170440cde6e73db19c0ae29ab7d5">graining</a> ()</td></tr>
+<tr class="separator:adc7d170440cde6e73db19c0ae29ab7d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:a28cacf840cad3c19c533ce3e838a2b49"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqpp_1_1neighbours__table.html#a28cacf840cad3c19c533ce3e838a2b49">DIM</a></td></tr>
+<tr class="separator:a28cacf840cad3c19c533ce3e838a2b49"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af495589366c2a3c05d5218e97c4fd9cf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classqpp_1_1geometry.html">geometry</a>&lt; REAL, CELL &gt; *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqpp_1_1neighbours__table.html#af495589366c2a3c05d5218e97c4fd9cf">geom</a></td></tr>
+<tr class="separator:af495589366c2a3c05d5218e97c4fd9cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa9b9122333feb9245ee7fa186be9a1b1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classqpp_1_1bonding__table.html">bonding_table</a>&lt; REAL &gt; *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqpp_1_1neighbours__table.html#aa9b9122333feb9245ee7fa186be9a1b1">btbl</a></td></tr>
+<tr class="separator:aa9b9122333feb9245ee7fa186be9a1b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ace2980c4101440a092fe291448c7ca4d"><td class="memItemLeft" align="right" valign="top">REAL *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqpp_1_1neighbours__table.html#ace2980c4101440a092fe291448c7ca4d">_disttable</a></td></tr>
+<tr class="separator:ace2980c4101440a092fe291448c7ca4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7cac1f8d9895186d3318a449e7dd2db9"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqpp_1_1neighbours__table.html#a7cac1f8d9895186d3318a449e7dd2db9">ntp</a></td></tr>
+<tr class="separator:a7cac1f8d9895186d3318a449e7dd2db9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a211becc1e2a11aa1ae96dbbc71fc62cd"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::vector&lt; <a class="el" href="classqpp_1_1index.html">index</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqpp_1_1neighbours__table.html#a211becc1e2a11aa1ae96dbbc71fc62cd">_table</a></td></tr>
+<tr class="separator:a211becc1e2a11aa1ae96dbbc71fc62cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9256a6356582c253140d10e1243fd136"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqpp_1_1neighbours__table.html#a9256a6356582c253140d10e1243fd136">auto_update</a></td></tr>
+<tr class="separator:a9256a6356582c253140d10e1243fd136"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a92e95f4f4bcf4564d69d73fef55f9d8f"><td class="memItemLeft" align="right" valign="top">REAL&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqpp_1_1neighbours__table.html#a92e95f4f4bcf4564d69d73fef55f9d8f">grainsize</a></td></tr>
+<tr class="separator:a92e95f4f4bcf4564d69d73fef55f9d8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abea7ea9b5939de39031059d3b8bb9fa4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classqpp_1_1vector3d.html">vector3d</a>&lt; REAL &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqpp_1_1neighbours__table.html#abea7ea9b5939de39031059d3b8bb9fa4">Rmin</a></td></tr>
+<tr class="separator:abea7ea9b5939de39031059d3b8bb9fa4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad2e35b76d20d22fad13f65f24cc05a28"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classqpp_1_1vector3d.html">vector3d</a>&lt; REAL &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqpp_1_1neighbours__table.html#ad2e35b76d20d22fad13f65f24cc05a28">Rmax</a></td></tr>
+<tr class="separator:ad2e35b76d20d22fad13f65f24cc05a28"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a839788e2c47d8cb70767e2468c5fee80"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classqpp_1_1index.html">index</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqpp_1_1neighbours__table.html#a839788e2c47d8cb70767e2468c5fee80">ngrain</a></td></tr>
+<tr class="separator:a839788e2c47d8cb70767e2468c5fee80"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5d54f0ed8a362b3a1f319dae7e4cf6cf"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::vector&lt; <a class="el" href="classqpp_1_1index.html">index</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classqpp_1_1neighbours__table.html#a5d54f0ed8a362b3a1f319dae7e4cf6cf">grains</a></td></tr>
+<tr class="separator:a5d54f0ed8a362b3a1f319dae7e4cf6cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Typedef Documentation</h2>
 <a class="anchor" id="affc219f480abec6604fe9511b86e8a4f"></a>
@@ -209,6 +277,28 @@ template&lt;class REAL, class CELL = periodic_cell&lt;REAL&gt;&gt; </div>
           <td class="memname">typedef <a class="el" href="structqpp_1_1geometry__observer.html">geometry_observer</a>&lt;REAL&gt; <a class="el" href="classqpp_1_1neighbours__table.html">qpp::neighbours_table</a>&lt; REAL, CELL &gt;::<a class="el" href="classqpp_1_1neighbours__table.html#affc219f480abec6604fe9511b86e8a4f">DEP</a></td>
         </tr>
       </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a2d25e2e763786a1ab4c579de2e943e75"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class REAL, class CELL = periodic_cell&lt;REAL&gt;&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef <a class="el" href="classqpp_1_1neighbours__table.html">neighbours_table</a>&lt;REAL,CELL&gt; <a class="el" href="classqpp_1_1neighbours__table.html">qpp::neighbours_table</a>&lt; REAL, CELL &gt;::<a class="el" href="classqpp_1_1neighbours__table.html#a2d25e2e763786a1ab4c579de2e943e75">SELF</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
@@ -251,6 +341,42 @@ template&lt;class REAL, class CELL = periodic_cell&lt;REAL&gt;&gt; </div>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="a7e3845d364907b8cfe493c415e13bb97"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class REAL, class CELL = periodic_cell&lt;REAL&gt;&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="classqpp_1_1neighbours__table.html">qpp::neighbours_table</a>&lt; REAL, CELL &gt;::_add_ngbr </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>i</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classqpp_1_1index.html">index</a> &amp;&#160;</td>
+          <td class="paramname"><em>j</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a class="anchor" id="a7736a4cf055c90cf35b3bb0bb126bc3c"></a>
 <div class="memitem">
 <div class="memproto">
@@ -320,6 +446,31 @@ template&lt;class REAL, class CELL = periodic_cell&lt;REAL&gt;&gt; </div>
 
 </div>
 </div>
+<a class="anchor" id="a109ec6a92100f5c84dd814a00bae1d44"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class REAL, class CELL = periodic_cell&lt;REAL&gt;&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="classqpp_1_1neighbours__table.html">qpp::neighbours_table</a>&lt; REAL, CELL &gt;::build_disttable </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a class="anchor" id="ad6ac927d1191e355ac0253a4e7fb357b"></a>
 <div class="memitem">
 <div class="memproto">
@@ -367,6 +518,42 @@ template&lt;class REAL, class CELL = periodic_cell&lt;REAL&gt;&gt; </div>
 </div><div class="memdoc">
 
 <p>Implements <a class="el" href="structqpp_1_1geometry__observer.html#a7584789c1e2b24ca6acac7a1078478c2">qpp::geometry_observer&lt; REAL &gt;</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a93548eeb9d1ac4d48217cb655a3d244b"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class REAL, class CELL = periodic_cell&lt;REAL&gt;&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">REAL <a class="el" href="classqpp_1_1neighbours__table.html">qpp::neighbours_table</a>&lt; REAL, CELL &gt;::distance </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>i</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>j</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -452,6 +639,218 @@ template&lt;class REAL, class CELL = periodic_cell&lt;REAL&gt;&gt; </div>
   </td>
   <td class="mlabels-right">
 <span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a29e52d88728f88c711872c42caef94cf"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class REAL, class CELL = periodic_cell&lt;REAL&gt;&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int <a class="el" href="classqpp_1_1neighbours__table.html">qpp::neighbours_table</a>&lt; REAL, CELL &gt;::gidx </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>i</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>j</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>k</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a96678140401fdf133b52c13404c3356a"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class REAL, class CELL = periodic_cell&lt;REAL&gt;&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int <a class="el" href="classqpp_1_1neighbours__table.html">qpp::neighbours_table</a>&lt; REAL, CELL &gt;::gidx </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classqpp_1_1index.html">index</a> &amp;&#160;</td>
+          <td class="paramname"><em>I</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a30b0167d85c1547e9dd36aea6cb1bcf0"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class REAL, class CELL = periodic_cell&lt;REAL&gt;&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;<a class="el" href="classqpp_1_1index.html">index</a>&gt;&amp; <a class="el" href="classqpp_1_1neighbours__table.html">qpp::neighbours_table</a>&lt; REAL, CELL &gt;::grain </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>i</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>j</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>k</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="afdf89020938e1d23bf439f8a111ef8a7"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class REAL, class CELL = periodic_cell&lt;REAL&gt;&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;<a class="el" href="classqpp_1_1index.html">index</a>&gt;&amp; <a class="el" href="classqpp_1_1neighbours__table.html">qpp::neighbours_table</a>&lt; REAL, CELL &gt;::grain </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classqpp_1_1index.html">index</a> &amp;&#160;</td>
+          <td class="paramname"><em>I</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a8c09eeb2008d8da7a73ce4411857e0ac"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class REAL, class CELL = periodic_cell&lt;REAL&gt;&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="classqpp_1_1neighbours__table.html">qpp::neighbours_table</a>&lt; REAL, CELL &gt;::grain_setup </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="adc7d170440cde6e73db19c0ae29ab7d5"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class REAL, class CELL = periodic_cell&lt;REAL&gt;&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="classqpp_1_1neighbours__table.html">qpp::neighbours_table</a>&lt; REAL, CELL &gt;::graining </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a14e6c3254447e6c73b0f849630a85ccb"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class REAL, class CELL = periodic_cell&lt;REAL&gt;&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classqpp_1_1index.html">index</a> <a class="el" href="classqpp_1_1neighbours__table.html">qpp::neighbours_table</a>&lt; REAL, CELL &gt;::igrain </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classqpp_1_1index.html">index</a> &amp;&#160;</td>
+          <td class="paramname"><em>at</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -893,6 +1292,31 @@ template&lt;class REAL, class CELL = periodic_cell&lt;REAL&gt;&gt; </div>
 
 </div>
 </div>
+<a class="anchor" id="ac9e54f9d39d7d3197ea3b414d192be4c"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class REAL, class CELL = periodic_cell&lt;REAL&gt;&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="classqpp_1_1neighbours__table.html">qpp::neighbours_table</a>&lt; REAL, CELL &gt;::resize_disttable </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a class="anchor" id="a26b50e685a883c22666d60d7d869862e"></a>
 <div class="memitem">
 <div class="memproto">
@@ -1025,6 +1449,32 @@ template&lt;class REAL, class CELL = periodic_cell&lt;REAL&gt;&gt; </div>
 
 </div>
 </div>
+<a class="anchor" id="a9b207e551e963f27ac002d24c37fb53b"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class REAL, class CELL = periodic_cell&lt;REAL&gt;&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="classqpp_1_1neighbours__table.html">qpp::neighbours_table</a>&lt; REAL, CELL &gt;::to_grain </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classqpp_1_1index.html">index</a> &amp;&#160;</td>
+          <td class="paramname"><em>at</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a class="anchor" id="ad5c5b779bde6757317977ba18111b573"></a>
 <div class="memitem">
 <div class="memproto">
@@ -1050,7 +1500,76 @@ template&lt;class REAL, class CELL = periodic_cell&lt;REAL&gt;&gt; </div>
 
 </div>
 </div>
+<a class="anchor" id="a0dd5bb8b08c0bec49f49a680c2d19dba"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class REAL, class CELL = periodic_cell&lt;REAL&gt;&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="classqpp_1_1neighbours__table.html">qpp::neighbours_table</a>&lt; REAL, CELL &gt;::translational_grain_setup </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a class="anchor" id="ace2980c4101440a092fe291448c7ca4d"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class REAL, class CELL = periodic_cell&lt;REAL&gt;&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">REAL* <a class="el" href="classqpp_1_1neighbours__table.html">qpp::neighbours_table</a>&lt; REAL, CELL &gt;::_disttable</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a211becc1e2a11aa1ae96dbbc71fc62cd"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class REAL, class CELL = periodic_cell&lt;REAL&gt;&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;std::vector&lt;<a class="el" href="classqpp_1_1index.html">index</a>&gt; &gt; <a class="el" href="classqpp_1_1neighbours__table.html">qpp::neighbours_table</a>&lt; REAL, CELL &gt;::_table</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a class="anchor" id="a34a5323dc9f3c3fd5426c5a831d4e8a5"></a>
 <div class="memitem">
 <div class="memproto">
@@ -1065,6 +1584,182 @@ template&lt;class REAL, class CELL = periodic_cell&lt;REAL&gt;&gt; </div>
 
 </div>
 </div>
+<a class="anchor" id="a9256a6356582c253140d10e1243fd136"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class REAL, class CELL = periodic_cell&lt;REAL&gt;&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool <a class="el" href="classqpp_1_1neighbours__table.html">qpp::neighbours_table</a>&lt; REAL, CELL &gt;::auto_update</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aa9b9122333feb9245ee7fa186be9a1b1"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class REAL, class CELL = periodic_cell&lt;REAL&gt;&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classqpp_1_1bonding__table.html">bonding_table</a>&lt;REAL&gt;* <a class="el" href="classqpp_1_1neighbours__table.html">qpp::neighbours_table</a>&lt; REAL, CELL &gt;::btbl</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a28cacf840cad3c19c533ce3e838a2b49"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class REAL, class CELL = periodic_cell&lt;REAL&gt;&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int <a class="el" href="classqpp_1_1neighbours__table.html">qpp::neighbours_table</a>&lt; REAL, CELL &gt;::DIM</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="af495589366c2a3c05d5218e97c4fd9cf"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class REAL, class CELL = periodic_cell&lt;REAL&gt;&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classqpp_1_1geometry.html">geometry</a>&lt;REAL, CELL&gt;* <a class="el" href="classqpp_1_1neighbours__table.html">qpp::neighbours_table</a>&lt; REAL, CELL &gt;::geom</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a5d54f0ed8a362b3a1f319dae7e4cf6cf"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class REAL, class CELL = periodic_cell&lt;REAL&gt;&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;std::vector&lt;<a class="el" href="classqpp_1_1index.html">index</a>&gt; &gt; <a class="el" href="classqpp_1_1neighbours__table.html">qpp::neighbours_table</a>&lt; REAL, CELL &gt;::grains</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a92e95f4f4bcf4564d69d73fef55f9d8f"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class REAL, class CELL = periodic_cell&lt;REAL&gt;&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">REAL <a class="el" href="classqpp_1_1neighbours__table.html">qpp::neighbours_table</a>&lt; REAL, CELL &gt;::grainsize</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a839788e2c47d8cb70767e2468c5fee80"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class REAL, class CELL = periodic_cell&lt;REAL&gt;&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classqpp_1_1index.html">index</a> <a class="el" href="classqpp_1_1neighbours__table.html">qpp::neighbours_table</a>&lt; REAL, CELL &gt;::ngrain</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a7cac1f8d9895186d3318a449e7dd2db9"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class REAL, class CELL = periodic_cell&lt;REAL&gt;&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int <a class="el" href="classqpp_1_1neighbours__table.html">qpp::neighbours_table</a>&lt; REAL, CELL &gt;::ntp</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a class="anchor" id="af0309a6e0a590e63349613b847b71d98"></a>
 <div class="memitem">
 <div class="memproto">
@@ -1075,6 +1770,50 @@ template&lt;class REAL, class CELL = periodic_cell&lt;REAL&gt;&gt; </div>
           <td class="memname">bool <a class="el" href="classqpp_1_1neighbours__table.html">qpp::neighbours_table</a>&lt; REAL, CELL &gt;::reference_mode</td>
         </tr>
       </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ad2e35b76d20d22fad13f65f24cc05a28"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class REAL, class CELL = periodic_cell&lt;REAL&gt;&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classqpp_1_1vector3d.html">vector3d</a>&lt;REAL&gt; <a class="el" href="classqpp_1_1neighbours__table.html">qpp::neighbours_table</a>&lt; REAL, CELL &gt;::Rmax</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="abea7ea9b5939de39031059d3b8bb9fa4"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class REAL, class CELL = periodic_cell&lt;REAL&gt;&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classqpp_1_1vector3d.html">vector3d</a>&lt;REAL&gt; <a class="el" href="classqpp_1_1neighbours__table.html">qpp::neighbours_table</a>&lt; REAL, CELL &gt;::Rmin</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
